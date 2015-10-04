@@ -33,7 +33,7 @@ sub notify {
     "--urgency=low ".
     "--expire-time=0 ".
     "--app-name=irssi ".
-    "--icon /usr/share/irssi/icons/irssi-icon.png ".
+    "--icon ~/.irssi/icons/irssi-icon.png ".
     "\"$summary\" \"$message\"";
   system($cmd);
 }
